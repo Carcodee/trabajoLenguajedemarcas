@@ -1,0 +1,82 @@
+ {
+	box-sizing:border-box;
+	/padding:10px;/
+	
+}
+
+body {
+	margin:0px;	
+}
+p {
+	margin:0px;
+	
+}
+
+
+
+#contenido {
+	background-color:#f2f2f2;
+	width:75%;
+	text-align:center;
+	line-height: 4;
+
+}
+
+.menuDerecha {
+	width:25%;
+	margin-top:5px;
+    margin-bottom:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+	background-color:white;
+	text-align:center;
+	
+}
+
+.piePagina {
+	background-color:lightgray;
+    float:left;
+    width:100%;
+    height:150px;
+	text-align:center;
+	
+}
+.cabecera{
+ background-color: white;
+    text-align: center;   
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+     height:150px;
+     
+}
+
+.cajaVariable2 {
+		display:flex;
+     margin-left: 50px;
+    margin-right: 50px;
+     height:350px;
+    background-color: gainsboro;
+}
+
+.fondonegro{
+   background-color: black;
+
+}
+@media screen and (max-width:600px){
+		/* solo se aplica cuando el viewport es estrecho, como máximo de 600 puntos */
+		/* hay que definir aquí selectores y estilos */
+		/* al menos para las columnas ancha y estrecha de la zona de contenidos de la pagina */
+		#cajaVariable {
+			display:unset;
+		}
+		
+		#contenido, #menuDerecha{
+			width:100%;	
+		}
+		
+		/*#menuDerecha {
+			width:100%;
+		} */
+
+}
